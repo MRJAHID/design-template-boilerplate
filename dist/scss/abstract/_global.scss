@@ -1,0 +1,61 @@
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 1.8rem;
+    font-family: 'Public Sans', sans-serif;
+    line-height: 1.3;
+    font-weight: 300;
+    overflow-x: hidden;
+
+    &.noscroll {
+        overflow: hidden;
+    }
+
+    @include breakpoint-up(large) {
+        font-size: 2rem;
+    }
+}
+
+h1,
+h2,
+h3 {
+    margin-top: 0px;
+    font-weight: 300;
+    line-height: 1.15;
+}
+h1 {
+    margin-bottom: 2.4rem;
+
+    @include breakpoint-up(large) {
+        font-size: 5.2rem;
+    }
+}
+h2 {
+    font-size: 3rem;
+    margin-bottom: 2.5rem;
+
+    @include breakpoint-up(large) {
+        font-size: 3.6rem;
+        margin-bottom: 3.6rem;
+    }
+}
+p {
+    line-height: 1.5;
+    margin-bottom: 3.6rem;
+}
+a,
+a:hover,
+a:visited {
+    text-decoration: none;
+}

@@ -1,0 +1,44 @@
+{
+  "name": "SevenTech-Ecommerce-Template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "dependencies": {
+    "autoprefixer": "^10.2.6",
+    "postcss": "^8.3.5",
+    "tailwindcss": "^2.2.4"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.6",
+    "postcss": "^8.3.5",
+    "tailwindcss": "^2.2.4",
+    "autoprefixer": "^10.2.6",
+    "browser-sync": "^2.26.14",
+    "cssnano": "^5.0.6",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-postcss": "^9.0.0",
+    "gulp-replace": "^1.1.3",
+    "gulp-sass": "^4.1.1",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-terser": "^2.0.1",
+    "gulp-uglify": "^3.0.2",
+    "postcss": "^8.3.5"
+  },
+  "scripts": {
+    "tw-build": "npx tailwindcss -i ./dist/css/tailwindstart.css -o ./dist/css/tailwind.css",
+    "sass": "sass --watch ./dist/scss/index.scss:./dist/css/index.css --style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MRJAHID/SevenTech-Ecommerce-Template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MRJAHID/SevenTech-Ecommerce-Template/issues"
+  },
+  "homepage": "https://github.com/MRJAHID/SevenTech-Ecommerce-Template#readme"
+}
